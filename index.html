@@ -11,30 +11,39 @@
   <link href="style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
 </head>
 <body>
-  <nav class="light-blue lighten-1" role="navigation">
-    <div class="nav-wrapper container">
-    <!-- <img src="company-logo.jpg"> -->
-
-      <ul id="nav-mobile" class="side-nav">
-        <li><a href="#"></a></li>
-      </ul>
-      <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons">menu</i></a>
+  <nav class="light-blue lighten-1" role="navigation" data-activates="nav-mobile">
+    <div class="nav-wrapper container" data-activates="nav-desktop">
+      <div class="row left">
+        <a href="" id="download-button" class="btn-large waves-effect waves-light orange">Articles</a>
+      </div> 
+      <div class="row left">
+        <a href="" id="download-button" class="btn-large waves-effect waves-light red">Projects</a>
+      </div>
+      <div class="row left">
+        <a href="" id="download-button" class="btn-large waves-effect waves-light pink">Research</a>
+      </div>
+      <div class="row left">
+        <a href="" id="download-button" class="btn-large waves-effect waves-light purple">Science Stuffs</a>
+      </div>
+      <div class="row left">
+        <a href="" id="download-button" class="btn-large waves-effect waves-light green">Fun Stuffs</a>
+      </div> 
+      <div class="row left">
+        <a href="" id="download-button" class="btn-large waves-effect waves-light yellow">Join us</a>
+      </div> 
+      <div class="row left">
+        <a href="" id="download-button" class="btn-large waves-effect waves-light brown">Contact us</a>
+      </div> 
     </div>
   </nav>
   <div class="section no-pad-bot" id="index-banner">
-    <div class="container">
-      <br><br>
-      <h1 class="header center orange-text">
+    <div class="row center">
+      <div class="nav-wrapper container" data-activates="nav-mobile">        
         <img src="company-logo.jpg">
-      </h1>
+      </div>
       <div class="row center">
         <h5 class="header col s12 light">A Research and Development (R&D) startup organization</h5>
       </div>
-      <!--
-      <div class="row center">
-        <a href="http://materializecss.com/getting-started.html" id="download-button" class="btn-large waves-effect waves-light orange">Startup is Fun</a>
-      </div>
-      -->
     </div>
   </div>
 
